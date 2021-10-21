@@ -6,7 +6,7 @@ import './header.css'
 const Header = () => {
     return (
         <div className="header">
-           <img className="header__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon logo" />
+          <a href="/"> <img className="header__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon logo" /> </a>
            <div className="header__search">
                <input className="header__seachInput" type="text"/>
                <SearchIcon className="header__searchIcon" />
