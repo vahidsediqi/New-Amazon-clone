@@ -6,7 +6,6 @@
     margin: 10px;
     padding: 20px;
     width: 100%;
-    max-height: 300px;
     min-width: 100px;
     background-color: white;
     z-index: 1;
@@ -14,6 +13,9 @@
 
 .product__rating{
     display: flex;
+}
+.product__rating > p {
+    color:#f0c14b;
 }
 .product > button {
     background-color: #f0c14b;
